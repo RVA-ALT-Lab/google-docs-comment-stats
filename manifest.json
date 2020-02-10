@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2, 
+	"name": "Google Doc Comment Stats", 
+	"version": "0.0.0", 
+	"description": "Counts all of the comments in a Google Doc and prints summary stats",
+	"browser_action": {
+		"default_icon": "myAvatar.png", 
+		"default_popup": "popup.html"
+	},
+	"author": "Jeff Everhart",
+	"permissions": ["activeTab", "storage", "tabs"]
+}
